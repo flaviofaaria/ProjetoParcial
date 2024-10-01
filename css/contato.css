@@ -1,0 +1,95 @@
+.contactHeadingLanding{
+    width: 50%;
+    padding-right: 30px;
+}
+.contactBlockImage {
+    float: right;
+    margin-right: 0;
+    justify-content: end;
+    width: 50%;
+    display: flex;
+}
+.contactLandingHeading {
+    font-size: 60px;
+    color: #64cc4f;
+}
+
+.contactFormBlock {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.contactForm {
+    margin-left: 10px;
+}
+
+.inputLable {
+    font-size: 20px;
+}
+
+.inputField{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 30px;
+    border-radius: 10px;
+    width: 28vw;
+    border: solid black 2px;
+}
+
+.inputFieldMsg {
+    margin-top: 10px;
+    height: 60px;
+    border-radius: 10px;
+    width: 28vw;
+    border: solid black 2px;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.contact-form {
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #64cc4f;
+    outline: none;
+}
+.form-group button {
+    background-color: #64cc4f;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.form-group button:hover {
+    background-color: #64cc4f;
+}

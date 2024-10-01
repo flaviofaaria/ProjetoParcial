@@ -1,0 +1,47 @@
+.cardimage{
+    background-image: url(../images/02C.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.projects {
+    margin: 50px 0;
+    text-align: center;
+}
+.projectstitle {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-body {
+    padding: 20px;
+    background-color: #fff;
+}
+.card-text {
+    color: #666;
+    font-size: 1rem;
+}
