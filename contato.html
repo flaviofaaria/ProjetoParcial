@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/contato.css">
+    <link href="http://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <title>Contato</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="navLogo" href="index.html">
+                <img width="30px" alt="Logo image" src="./images/logo.png"/> 
+            </a>
+            <ul class="navbarItems">
+                <li class="navItem"><a class="navLink" href="./index.html">Home</a></li>
+                <li class="navItem"><a class="navLink" href="./sobre.html">Sobre</a></li>
+                <li class="navItem"><a class="navLink" href="./produtos.html">Produtos</a></li>
+                <li class="navItem"><a class="navLink" href="./galeria.html">Galeria</a></li>
+                <li class="navItem"><a class="navLink active" href="./contato.html">Contato</a></li>
+                <li class="navItem"><a class="navLink" href="./blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="contact-title">Contato</h1>
+        <form action="contato.html" method="POST" class="contact-form">
+            <div class="form-group">
+                <label class="text2" for="name">Nome:</label>
+                <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+            </div>
+            <div class="form-group">
+                <label class="text2" for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+            </div>
+            <div class="form-group">
+                <label class="text2" for="subject">Assunto:</label>
+                <input type="text" id="subject" name="subject" required placeholder="Digite o assunto">
+            </div>
+            <div class="form-group">
+                <label class="text2" for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar Mensagem</button>
+            </div>
+        </form>
+    </div>
+    <hr/>
+    <div class="footer">
+        <p>Flavio Galdona Faria - 838636 ©</p>
+    </div>
+</body>
+</html>
